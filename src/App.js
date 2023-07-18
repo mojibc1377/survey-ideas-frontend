@@ -52,7 +52,6 @@ function App() {
         value={text1Value} // Bind the state value to the text area
         onChange={handleText1Change} // Call the function on text change
       />
-      <br />
       <textarea
         className='input-textarea w-full max-h-max px-5 py-5 font-sans'
         type='textarea'
