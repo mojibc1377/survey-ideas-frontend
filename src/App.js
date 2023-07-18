@@ -17,7 +17,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       // Send the data to the backend server
-      await axios.post(`http://localhost:8000/ideas`, {
+      await axios.post(`https://survey-ideas-backend.onrender.com:10000/ideas`, {
         text1: text1Value,
         text2: text2Value,
       });
@@ -36,8 +36,8 @@ function App() {
   <div className='app'>
   <header className='header'> salam va khaste nabashid</header>
     <div className='textContainer'>
-      <text className='text'>esme man mojtaba e va ye developer am ke daram donbale ide haye jadid migardam vaseye rahat tar kardane zendegie shoma va qatAan dus daram ke az in mozu pul ham dar byaram vagarna ke man asan shomaro nemishnasam hehehe
-      </text>
+      <p className='text'>esme man mojtaba e va ye developer am ke daram donbale ide haye jadid migardam vaseye rahat tar kardane zendegie shoma va qatAan dus daram ke az in mozu pul ham dar byaram vagarna ke man asan shomaro nemishnasam hehehe
+      </p>
     </div>
     <span>hadaf az dorost kardane in form serfan gereftane ide haye shomast </span>
     <p>lotfan deqqat konid porseshnameye zir daraye 2 qesmate baraye neveshtane idehatune ye qesmat marbut be zendegi shakhsitune baraye mesal tuye zendegi shakhsitun tu karhaye ruzanatun ke kharej az shoqletune fek mikonid che app ya barnameE mitunest meqdare zyadi zaman baratun save kone ya karetun ro kolli rahat tar kone be sheddat 
