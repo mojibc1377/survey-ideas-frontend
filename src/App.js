@@ -59,7 +59,7 @@ function App() {
         value={text2Value} // Bind the state value to the text area
         onChange={handleText2Change} // Call the function on text change
       />
-  <button type="submit" className="sendButton " onClick={handleSubmit}>SEND</button>
+  <button className="sendButton " onClick={handleSubmit}>SEND</button>
   </div>
   );
 }
