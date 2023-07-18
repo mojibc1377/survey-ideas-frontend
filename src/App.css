@@ -3,7 +3,7 @@
 @tailwind utilities;
 body{
     background-color: #1c1b1b;
-    padding: 50px 50px;
+    padding: 30px 30px;
     font-family: sans-serif;
 
 }
@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 50px 50px;
+    padding: 10px 10px;
     border: 1px solid #807b7b94;
     background-color: #434a50;
     border-radius: 10px;
@@ -23,7 +23,7 @@ body{
 }
 .sendButton{
     border: 1px solid white;
-    background-color: #1c1b1b;
+    background-color: #1c1b1b ;
     display: block;
     border-radius: 7px;
     color: aliceblue;
@@ -32,11 +32,6 @@ body{
     padding: 10px 5px;
     width: 4rem;
 }
-.sendButton :hover{
-    box-shadow: 40px 5px 14px rgba(16, 16, 16, 0.9);
-
-}
-
 textarea{
     border-radius: 7px;
     margin: 0;
