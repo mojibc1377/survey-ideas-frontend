@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #1c1b1b;
+    padding: 50px 50px;
+    font-family: sans-serif;
+
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 50px;
+    border: 1px solid #807b7b94;
+    background-color: #434a50;
+    border-radius: 10px;
+    box-shadow: 4px 5px 14px rgba(95, 129, 129, 0.9);
+    color: aliceblue;
+}
+.header{
+    color: aliceblue;
+}
+.sendButton{
+    border: 1px solid white;
+    background-color: #1c1b1b;
+    display: block;
+    border-radius: 7px;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.sendButton :hover{
+    box-shadow: 40px 5px 14px rgba(16, 16, 16, 0.9);
+
+}
+
+textarea{
+    border-radius: 7px;
+    margin: 0;
+    background-color: #222324c3;
+    color: azure;
+}
