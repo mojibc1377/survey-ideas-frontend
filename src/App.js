@@ -17,7 +17,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       // Send the data to the backend server
-      await axios.post(`https://survey-ideas-backend.onrender.com:10000/ideas`, {
+      await axios.post(`https://survey-ideas-backend.onrender.com/ideas`, {
         text1: text1Value,
         text2: text2Value,
       });
