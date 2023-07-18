@@ -15,6 +15,7 @@ function App() {
     setText2Value(event.target.value);
   };
   const handleSubmit = async () => {
+    alert('please wait ! ta dobare behetun alarm befrestam ! mersi');
     try {
       // Send the data to the backend server
       await axios.post(`https://survey-ideas-backend.onrender.com/ideas`, {
