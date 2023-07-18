@@ -35,6 +35,7 @@ body{
 textarea{
     border-radius: 7px;
     margin: 0;
+    height : 180px;
     background-color: #222324c3;
     color: azure;
 }
